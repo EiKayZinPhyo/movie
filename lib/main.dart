@@ -59,11 +59,12 @@ class _MoviePageState extends State<MoviePage> {
         title: const Text("Movie app"),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
             padding: const EdgeInsets.all(12.0),
             child: Text(
-              'Movie',
+              'NowPlaying_Movie',
               style: Theme.of(context).textTheme.headline6,
             ),
           ),
